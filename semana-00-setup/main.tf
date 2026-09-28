@@ -19,6 +19,6 @@ provider "aws" {
     }
   }
 }
-resource "aws_s3_bucket" "LAB" {
+resource "aws_s3_bucket" "lab" {
   bucket = "aws-saa-labs-matheus-s00"
 }
